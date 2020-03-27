@@ -181,11 +181,11 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 6. The voting system shall be a single vote for each position, with a simple majority.
 7. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously.
 
-### Affiliations
+## Affiliations
 
 1. The Society shall affiliate to external bodies only where membership of those bodies is essential to the fulfilment of the core aims, and only with the prior agreement of the Union’s Societies Network.
 
-### Constitutional Amendments
+## Constitutional Amendments
 
 1. Any amendment to this constitution shall require a two-thirds majority of the members present at a properly constituted General Meeting.
 2. All such amendments shall become valid only after approval by Student Council, or the appropriate delegated authority as duly determined by the present democratic structures of the Union.
