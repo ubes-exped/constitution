@@ -1,4 +1,3 @@
-
 # Constitution for the University of Bristol Expeditions Society
 
 ## Name
@@ -66,7 +65,7 @@ Positions held on the Committee and their main roles are as follows:
 
 1. Keep the accounts in order
 2. Liaise with union treasurer and bank
-3. End of year audit 
+3. End of year audit
 4. Roles outlined in Financials below
 5. Organise weekend trips
 
@@ -120,39 +119,40 @@ Positions held on the Committee and their main roles are as follows:
 1. Champion and, where appropriate, organise new activities and opportunities which shall develop the Society and are related to its overall mission.
 2. Encourage and facilitate the wider Society membership in their own relevant endeavors, and act as an ambassador for the Society for interested people in the University.
 3. Work towards a set of development objectives proposed by the role holder and agreed upon by the Committee at the start of the year, which may include:
-    1. Organising lectures on expeditions-related topics.
-    2. Organise training promoting the development of skills relevant to advanced expeditions.
-    3. Encourage and assist others to undertake their own expeditions through the running of planning workshops.
-    4. Organising an ambitious or research-based expedition.
+   1. Organising lectures on expeditions-related topics.
+   2. Organise training promoting the development of skills relevant to advanced expeditions.
+   3. Encourage and assist others to undertake their own expeditions through the running of planning workshops.
+   4. Organising an ambitious or research-based expedition.
 4. Manage a ‘Development Budget’ to assist in achieving these objectives. The budget shall be defined each year by the Committee and shall be commensurate with the costed development objectives, and with the Society’s financial standing.
-    1. Note: all expenditure must be pre-authorised by the President, or by the Committee if it exceeds a threshold set by the Committee (at the same time as the budget is set). Ultimate responsibility for this budget lies with the President, but day-to-day responsibility shall be with the Development Officer.
-    2. At least half of this expenditure should be designed to benefit the majority of active Society members.
+   1. Note: all expenditure must be pre-authorised by the President, or by the Committee if it exceeds a threshold set by the Committee (at the same time as the budget is set). Ultimate responsibility for this budget lies with the President, but day-to-day responsibility shall be with the Development Officer.
+   2. At least half of this expenditure should be designed to benefit the majority of active Society members.
 5. Promote the highest reasonable standards of safety in all activities.
 6. Manage the development of the Alumni network, with the support of the Secretary.a.Ultimate responsibility for the Alumni network shall lie with the Secretary, but day-to-day responsibility shall be with the Development Officer.
 7. Organise weekend trips
 
 ### Postgraduate Officer (2 Positions)
+
 1. Encourage postgraduate involvement in the society
 2. Organise socials for postgraduate members
 3. Organise trips for postgraduate members
 4. Organise weekend trips
 
 ### Webmaster
+
 1. Maintain and update the website and its contents
 2. Organise weekend trips
 
 ## Honorary Officers
 
-The Committee may appoint as Honorary President and Vice-President, any persons who have made significant contributions to the expedition and exploration movement within the University or nationally/internationally. 
-
+The Committee may appoint as Honorary President and Vice-President, any persons who have made significant contributions to the expedition and exploration movement within the University or nationally/internationally.
 
 ### Appointed Honorary Officers
 
-Name | Position appointed | Date appointed 
-:--|:--|:--
-Robert Wragge-Morley | Honorary President | 11/07/2014
-George Cave | Honorary President | 11/07/2014
-Jonathan Walsh | Honorary President | 27/04/2019
+| Name                 | Position appointed | Date appointed |
+| :------------------- | :----------------- | :------------- |
+| Robert Wragge-Morley | Honorary President | 11/07/2014     |
+| George Cave          | Honorary President | 11/07/2014     |
+| Jonathan Walsh       | Honorary President | 27/04/2019     |
 
 ## Finances
 
@@ -160,10 +160,10 @@ Jonathan Walsh | Honorary President | 27/04/2019
 2. The accounts of the Society shall be audited by a member of University staff and submitted to the Bristol SU Finance Team as and when requested and at least once per annum.
 3. All financial arrangements must be made in accordance with current instructions to Society Treasurers, as set down by the Societies Network.
 4. The Bristol SU Union Affairs Officer, Sport and Student Development Officer and Director of Finance and Administration shall jointly be empowered to issue financial instructions on behalf of the Society if:
-    1. The Society folds with outstanding financial affairs, or
-    2. Change of mandate forms are not completed, and the previous Committee are out of reasonable contact, or
-    3. Financial irregularities are found.
- 
+   1. The Society folds with outstanding financial affairs, or
+   2. Change of mandate forms are not completed, and the previous Committee are out of reasonable contact, or
+   3. Financial irregularities are found.
+
 ## General Meetings
 
 1. There shall be an Annual General Meeting (AGM) once per annum and this should be the last weekend of the University of Bristol Easter vacation.
@@ -179,11 +179,12 @@ Jonathan Walsh | Honorary President | 27/04/2019
 4. Any restrictions on who can stand must be stated –note that such restrictions must not contravene the Code of Conduct.
 5. Nominations must be made in accordance with instruction officially communicated by the Committee.
 6. The voting system shall be a single vote for each position, with a simple majority.
-7. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously. 
+7. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously.
 
 ### Affiliations
 
 1. The Society shall affiliate to external bodies only where membership of those bodies is essential to the fulfilment of the core aims, and only with the prior agreement of the Union’s Societies Network.
+
 ### Constitutional Amendments
 
 1. Any amendment to this constitution shall require a two-thirds majority of the members present at a properly constituted General Meeting.
@@ -193,55 +194,30 @@ This amendment adopted in July 2019. Amendment of the Expeditions Society Consti
 
 Signed,
 
-Cassia Copeland (President) 
+Cassia Copeland (President)
 James Wheeler (Vice-President)
 
-*Previous Revision May 2018:*
+_Previous Revision May 2018:_
 
-Megan Clark (Secretary) 
-Tom Kilcommons (President) 
+Megan Clark (Secretary)
+Tom Kilcommons (President)
 Phillip Eccleston (Vice-President)
 
-*Previous Revision May 2017:*
+_Previous Revision May 2017:_
 
-Alasdair Robertson (Secretary) 
-Tom Kilcommons (Treasurer) 
+Alasdair Robertson (Secretary)
+Tom Kilcommons (Treasurer)
 
-*Previous Revision May 2016:*
+_Previous Revision May 2016:_
 
-Lucy Vass (Secretary) 
-Duncan Edgley (President) 
-Emily Grout (Social Secretary) 
-Jonathan Hawkins (Climbing Kit & Safety Officer) 
+Lucy Vass (Secretary)
+Duncan Edgley (President)
+Emily Grout (Social Secretary)
+Jonathan Hawkins (Climbing Kit & Safety Officer)
 Laurence Falconer (Climbing Officer)
 
-*Previous Revision May 2013:*
+_Previous Revision May 2013:_
 
-Louise Phillips, President 
-Naomi Malkin, Vice President 
+Louise Phillips, President
+Naomi Malkin, Vice President
 Jonathan Walsh, Treasurer
-
-<style>
-h1 { counter-reset: h2 }
-
-h2 { counter-reset: h3 }
-
-h3 { counter-reset: h4 }
-
-h2:before {
-  counter-increment: h2;
-  content: counter(h2) ". "
-}
-
-h3:before {
-  counter-increment: h3;
-  content: counter(h2) "." counter(h3) ". "
-}
-
-h4:before {
-  counter-increment: h4;
-  content: counter(h2) "." counter(h3) "." counter(h4) ". "
-}
-
-ol > li { list-style-type: lower-alpha }
-</style>
