@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
 h1 {
@@ -34,7 +35,9 @@ ol>li {
 }
 
 .github-banner {
-  >a:hover {
+  display: block;
+
+  &:hover {
     text-decoration: none;
 
     >span {
