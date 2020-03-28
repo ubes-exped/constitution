@@ -170,7 +170,8 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 1. There shall be an Annual General Meeting (AGM) once per annum and this should be the last weekend of the University of Bristol Easter vacation.
 2. Notice of such meetings must be given by email at least seven days beforehand, together with the Agenda.
 3. An Extraordinary General Meeting (EGM) may be called by 5% of the membership of the Society by application to the Secretary. An EGM shall be called as specified on the application, but at least 7 days’ notice shall be given.
-4. Quorum of such meetings shall be set at twice the Committee size, plus one.e. Only full members, not Friends of the Society, should be counted during any AGM or EGM or in the process of calling for an EGM
+4. Quorum of such meetings shall be set at twice the Committee size, plus one.
+5. Only full members, not Friends of the Society, should be counted during any AGM or EGM or in the process of calling for an EGM
 
 ## Elections
 
