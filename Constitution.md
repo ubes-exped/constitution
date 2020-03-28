@@ -26,7 +26,7 @@ For the purpose of this document, expeditions are defined as adventurous outdoor
 3. All persons participating in activities are required to be insured to an appropriate extent as determined by the Executive Committee (for example, but not necessarily limited to, public liability insurance). Regardless of their membership or student status, any person who the Executive Committee reasonably believes is not covered sufficiently by University, Students’ Union, or Society insurance policies, must demonstrate to the satisfaction of the Executive Committee that they have appropriate insurance arrangements in place prior to and for the duration of the activities.
 4. Not less than two-thirds of the Society members shall be full members of the University of Bristol Students’ Union.
 5. The secretary shall keep a list of all members.
-6. There shall be a subscription fee levied for membership, whichshall be fixed at the discretion of the Expeditions Society Committee being no less than the minimum rate demanded by the Societies Network.
+6. There shall be a subscription fee levied for membership, which shall be fixed at the discretion of the Expeditions Society Committee being no less than the minimum rate demanded by the Societies Network.
 
 ## Privileges of Membership
 
