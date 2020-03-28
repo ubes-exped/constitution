@@ -1,5 +1,5 @@
 ---
-permalink: /index
+permalink: /index.html
 title: Constitution for the University of Bristol Expeditions Society
 ---
 
