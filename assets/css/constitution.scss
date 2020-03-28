@@ -1,0 +1,70 @@
+@mixin no-break-after {
+  // hack from https://stackoverflow.com/questions/9238868/how-do-i-avoid-a-page-break-immediately-after-a-heading
+  break-inside: avoid;
+
+  &::after {
+    content: "";
+    display: block;
+
+    $height: 50px;
+    height: $height;
+    margin-bottom: -$height;
+  }
+}
+
+h1 {
+  counter-reset: h2;
+}
+
+h2 {
+  counter-reset: h3;
+
+  @include no-break-after;
+}
+
+h3 {
+  counter-reset: h4;
+
+  @include no-break-after;
+}
+
+h2:before {
+  counter-increment: h2;
+  content: counter(h2) ". ";
+}
+
+h3:before {
+  counter-increment: h3;
+  content: counter(h2) "."counter(h3) ". ";
+}
+
+h4:before {
+  counter-increment: h4;
+  content: counter(h2) "."counter(h3) "."counter(h4) ". ";
+}
+
+ol>li {
+  list-style-type: lower-alpha;
+  break-inside: avoid;
+}
+
+.github-banner {
+  display: block;
+
+  a:first-child:hover {
+    text-decoration: none;
+
+    >span {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    vertical-align: -40%;
+    max-height: 2em;
+  }
+
+  @media print {
+    display: none;
+  }
+}
