@@ -196,13 +196,13 @@ This amendment adopted in July 2019. Amendment of the Expeditions Society Consti
 Signed,
 
 - Cassia Copeland (President)
-- James Wheeler (Vice-President)
+- James Wheeler (Vice President)
 
 _Previous Revision May 2018:_
 
 - Megan Clark (Secretary)
 - Tom Kilcommons (President)
-- Phillip Eccleston (Vice-President)
+- Phillip Eccleston (Vice President)
 
 _Previous Revision May 2017:_
 
@@ -214,11 +214,11 @@ _Previous Revision May 2016:_
 - Lucy Vass (Secretary)
 - Duncan Edgley (President)
 - Emily Grout (Social Secretary)
-- Jonathan Hawkins (Climbing Kit & Safety Officer)
+- Jonathan Hawkins (Climbing Kit and Safety Officer)
 - Laurence Falconer (Climbing Officer)
 
 _Previous Revision May 2013:_
 
-- Louise Phillips, President
-- Naomi Malkin, Vice President
-- Jonathan Walsh, Treasurer
+- Louise Phillips (President)
+- Naomi Malkin (Vice President)
+- Jonathan Walsh (Treasurer)
