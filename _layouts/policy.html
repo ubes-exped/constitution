@@ -9,13 +9,14 @@ layout: default
     />
     <span>GitHub</span></a>
   &CenterDot;
-  <a href="https://github.com/ubes-exped/constitution/edit/master/Constitution.md">Prepare an amendment</a>
+  <a href="../..">Constitution</a>
   &CenterDot;
-  {% if site.policies.size > 0 %}
-  <a href="policies/">General Policies</a>
+  <a href="..">All general policies</a>
   &CenterDot;
-  {% endif %}
   <a href="#" onclick="window.print();return false">Print</a>
 </div>
+
+<h1>{{ page.title }}</h1>
+<p class="subtitle">Valid until {{ page.expiry | date_to_long_string: "ordinal" }}</p>
 
 {{ content }}
