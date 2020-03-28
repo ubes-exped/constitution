@@ -1,6 +1,7 @@
 ---
-permalink: /index.html
-title: Constitution for the University of Bristol Expeditions Society
+permalink: '/'
+title: UBES Constitution
+layout: constitution
 ---
 
 {% include_relative Constitution.md %}

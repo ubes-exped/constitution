@@ -7,19 +7,8 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
+  <body class="layout-{{ page.layout }}">
     <div class="container-lg px-3 my-5 markdown-body">
-      <div class="github-banner">
-        <a href="https://github.com/ubes-exped/constitution/">
-          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
-          <span>GitHub</span>
-        </a>
-        &CenterDot;
-        <a href="https://github.com/ubes-exped/constitution/edit/master/Constitution.md">Prepare an amendment</a>
-        &CenterDot;
-        <a href="#" onclick="window.print();return false">Print</a>
-      </div>
-
       {{ content }}
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>

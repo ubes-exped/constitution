@@ -28,24 +28,38 @@ h3 {
   @include no-break-after;
 }
 
-h2:before {
-  counter-increment: h2;
-  content: counter(h2) ". ";
+body.layout-constitution {
+
+  h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". ";
+  }
+
+  h3:before {
+    counter-increment: h3;
+    content: counter(h2) "."counter(h3) ". ";
+  }
+
+  h4:before {
+    counter-increment: h4;
+    content: counter(h2) "."counter(h3) "."counter(h4) ". ";
+  }
+
+  ol>li {
+    list-style-type: lower-alpha;
+  }
 }
 
-h3:before {
-  counter-increment: h3;
-  content: counter(h2) "."counter(h3) ". ";
-}
-
-h4:before {
-  counter-increment: h4;
-  content: counter(h2) "."counter(h3) "."counter(h4) ". ";
-}
-
-ol>li {
-  list-style-type: lower-alpha;
+li {
   break-inside: avoid;
+}
+
+ol ol>li {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol>li {
+  list-style-type: lower-roman;
 }
 
 .github-banner {
@@ -67,4 +81,8 @@ ol>li {
   @media print {
     display: none;
   }
+}
+
+.subtitle {
+  font-style: italic;
 }
