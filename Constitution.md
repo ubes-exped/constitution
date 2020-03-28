@@ -1,4 +1,4 @@
-# Constitution for the University of Bristol Expeditions Society
+# Constitution of the University of Bristol Expeditions Society
 
 ## Name
 
