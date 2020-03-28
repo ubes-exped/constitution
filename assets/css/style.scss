@@ -37,7 +37,7 @@ ol>li {
 .github-banner {
   display: block;
 
-  &:hover {
+  a:first-child:hover {
     text-decoration: none;
 
     >span {
