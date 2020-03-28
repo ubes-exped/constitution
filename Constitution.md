@@ -187,7 +187,26 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 
 1. The Society shall affiliate to external bodies only where membership of those bodies is essential to the fulfilment of the core aims, and only with the prior agreement of the Union’s Societies Network.
 
-## Constitutional Amendments
+## Constitution and General Policies
+
+The Constitution defines the aims and operation of the society for the foreseeable future, subject to modifications as outlined in section 11.2. For more short-term effect, General Policies may enacted by Members at a General Meeting, as outlined in section 11.1.
+
+### General Policies
+
+1. Let General Policies be defined as instructions to the Committee and/or members about the day-to-day running of the Society that need not require a fundamental change to the Constitution.
+2. There shall be an official Society register of General Policies and their expiry dates, available to all members.
+3. Any changes General Policies can only be enacted by a quorate GM, not solely by the Committee.
+4. The Committee retains the right to create Committee Policies for itself. Committee Policies may not contradict General Policies, the Constitution, Union Byelaws, or any applicable legislation.
+5. Any amendment to General Policies shall receive require support from a simple majority at a quorate General Meeting.
+6. All General Policy shall expire three years after enactment or extension (‘standard maximum expiry’), unless the motion specifies an earlier expiry date.
+7. A General Meeting may exceptionally set the expiry date of a General Policy to exceed the three-year maximum.
+   1. In such cases the support of two thirds of a quorate General Meeting (a ‘super majority’) shall be required.
+   2. If such a motion receives the support of a simple majority but not a supermajority, the standard maximum expiry shall apply. In their motion, the proposer may waive this clause, such that anything short of a super majority is considered defeat.
+8. In the AGM preceding expiry, it shall be a standing motion to renew expiring policy. Expiring policy which is not renewed shall cease to have effect after its expiry.
+9. In any General Meeting, a motion may be proposed to revoke any policy, or to amend and/or extend it subject to sections f. and g. above.
+10. General Policy shall not intentionally contradict the Constitution. Where General Policy pre-dates a conflicting Constitutional amendment, or a conflict arises unintentionally, the Constitution takes precedence. Where such a conflict is noticed, it must be raised at the next General Meeting.
+
+### Constitutional Amendments
 
 1. Any amendment to this constitution shall require a two-thirds majority of the members present at a properly constituted General Meeting.
 2. All such amendments shall become valid only after approval by Student Council, or the appropriate delegated authority as duly determined by the present democratic structures of the Union.
