@@ -8,10 +8,10 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v1
       - name: Install dependencies
-        run:
-          - pwd
-          - ls -la
-          - yarn
+        run: |
+          pwd
+          ls -la
+          yarn
       - name: Hello world action step
         id: hello
         uses: ./.github/action
