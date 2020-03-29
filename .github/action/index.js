@@ -4,7 +4,7 @@ const exec = require('@actions/exec');
 
 (async () => {
   try {
-    const token = core.getInput('github-token');
+    const token = core.getInput('repo-token');
 
     await exec.exec('git symbolic-ref HEAD refs/heads/gh-pages', [], {
       silent: true

@@ -22,3 +22,5 @@ jobs:
       - name: Add PRs and their diffs to the gh-pages version
         id: hello
         uses: ./.github/action
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
