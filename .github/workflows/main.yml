@@ -31,10 +31,7 @@ jobs:
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
           message="Update pull requests on gh-pages from ${{ github.ref }}"
-          echo git rev-list --objects --all
-          echo $message
-          git rev-list --objects --all
-          echo / git rev-list --objects --all
+          git fetch
           echo git commit-tree -m "$message" -p master -p origin/gh-pages master
           git commit -m "$message"
           git commit-tree -m "$message" -p master -p origin/gh-pages master
