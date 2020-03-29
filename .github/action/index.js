@@ -80,9 +80,8 @@ async function main() {
     'charlie_harding@icloud.com'
   ]);
   await exec.exec('git', ['config', 'user.name', 'Charlie Harding']);
-  await exec.exec('git', ['status']);
   await exec.exec('git', ['commit', '-m', 'Update pull requests on gh-pages']);
-  await exec.exec('git', ['push']);
+  await exec.exec('git', ['push', 'origin', 'gh-pages']);
 }
 
 function filterPRs(
