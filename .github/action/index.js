@@ -1,6 +1,7 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 const exec = require('@actions/exec');
+const fs = require('mz/fs');
 
 (async () => {
   try {
@@ -21,12 +22,24 @@ const exec = require('@actions/exec');
 
     const octokit = new github.GitHub(token);
 
-    const pulls = await octokit.pulls.list({
+    const { data: pulls } = await octokit.pulls.list({
       owner: github.context.repo.owner,
       repo: github.context.repo.repo
     });
 
-    console.log(pulls);
+    await fs.mkdir('./gh-pages/_amendments', { recursive: true });
+    await areaddir('./gh-pages/_amendments');
+
+    for (const pull of pulls) {
+      console.log(JSON.stringify(pull, undefined, 2));
+      const target = pull.base;
+      // await octokit.pulls.listFiles({
+      //   owner: github.context.repo.owner,
+      //   repo: github.context.repo.repo,
+      //   pull_number: pull.number
+      // });
+      const commit = pull.merge_commit_sha;
+    }
 
     // Get the JSON webhook payload for the event that triggered the workflow
     const payload = JSON.stringify(github.context.payload, undefined, 2);
