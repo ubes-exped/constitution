@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="github-banner">
+  <a href="https://github.com/ubes-exped/constitution/">
+    <img
+      src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+    />
+    <span>GitHub</span></a>
+  &CenterDot;
+  <a href="https://github.com/ubes-exped/constitution/edit/master/Constitution.md">Prepare an amendment</a>
+  &CenterDot;
+  {% if site.policies.size > 0 %}
+  <a href="policies/">General Policies</a>
+  &CenterDot;
+  {% endif %}
+  <a href="#" onclick="window.print();return false">Print</a>
+</div>
+
+{{ content }}
