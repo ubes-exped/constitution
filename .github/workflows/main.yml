@@ -32,6 +32,7 @@ jobs:
           git config --local user.name "Charlie Harding"
           message="Update pull requests on gh-pages from ${{ github.ref }}"
           echo git rev-list --objects --all
+          echo $message
           git rev-list --objects --all
           echo / git rev-list --objects --all
           echo git commit-tree -m "$message" -p master -p origin/gh-pages master
