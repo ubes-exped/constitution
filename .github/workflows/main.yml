@@ -27,20 +27,18 @@ jobs:
       - name: Commit the changes
         run: |
           cd gh-pages
-          git add .
+          git checkout -b gh-pages
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
-          message="Update pull requests on gh-pages from ${{ github.ref }}"
           git fetch
-          echo git commit-tree -m "$message" -p master -p origin/gh-pages master
+          git merge -s ours origin/gh-pages --no-commit
+          git add .
+          message="Update pull requests on gh-pages"
           git commit -m "$message"
-          git commit-tree -m "$message" -p refs/heads/master -p refs/heads/origin/gh-pages master
-          hash=$(git commit-tree -m "$message" -p refs/heads/master -p refs/heads/origin/gh-pages master)
-          echo git checkout x"$hash"x
-          git checkout $hash
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           directory: gh-pages
           branch: gh-pages
+          force: true
