@@ -48,6 +48,8 @@ async function main() {
     }
     fs.writeFile(`./gh-pages/_amendments/${pull.number}.md`, newConstitution);
   }
+
+  await commit();
 }
 
 async function commit() {
