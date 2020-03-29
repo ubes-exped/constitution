@@ -28,7 +28,7 @@ const fs = require('mz/fs');
     });
 
     await fs.mkdir('./gh-pages/_amendments', { recursive: true });
-    await fs.areaddir('./gh-pages/_amendments');
+    await fs.readdir('./gh-pages/_amendments');
 
     for (const pull of pulls) {
       console.log(JSON.stringify(pull, undefined, 2));
