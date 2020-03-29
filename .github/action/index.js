@@ -76,9 +76,8 @@ async function main() {
   await exec.exec('git', ['add', '.']);
   await exec.exec('git', ['commit', '-m', 'Update pull requests on gh-pages'], {
     env: {
-      GIT_COMMITTER_NAME: 'Charlie Harding',
-      GIT_COMMITTER_EMAIL: 'charlie_harding@icloud.com',
-      GIT_COMMITTER_DATE: new Date().toISOString()
+      GIT_AUTHOR_NAME: 'Charlie Harding',
+      GIT_AUTHOR_EMAIL: 'charlie_harding@icloud.com'
     }
   });
   await exec.exec('git', ['push']);
