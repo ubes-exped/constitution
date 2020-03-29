@@ -4,6 +4,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const exec = require('@actions/exec');
 const fs = require('mz/fs');
+const fetch = require('node-fetch');
 
 /** @typedef {import('@octokit/rest').Octokit.PullsListResponseItem } PullsListResponseItem */
 
@@ -80,6 +81,7 @@ async function main() {
       GIT_COMMITTER_DATE: new Date().toISOString()
     }
   });
+  await exec.exec('git', ['push']);
 }
 
 function filterPRs(
