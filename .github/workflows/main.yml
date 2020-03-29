@@ -1,9 +1,9 @@
-on: [push]
+on: [push, pull_request]
 
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Prepare web view
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v1
@@ -11,8 +11,6 @@ jobs:
         run: |
           cd ./.github/action
           yarn
-      - name: Hello world action step
+      - name: Add PRs and their diffs to the gh-pages version
         id: hello
         uses: ./.github/action
-        with:
-          who-to-greet: 'Mona the Octocat'
