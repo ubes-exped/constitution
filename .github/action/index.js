@@ -19,19 +19,6 @@ const fetch = require('node-fetch');
 async function main() {
   const token = core.getInput('repo-token');
 
-  await exec.exec('git symbolic-ref HEAD refs/heads/gh-pages', [], {
-    silent: true
-  });
-
-  await exec.exec('git status', [], {
-    silent: true,
-    listeners: {
-      stdline(line) {
-        console.log(line);
-      }
-    }
-  });
-
   const octokit = new github.GitHub(token);
 
   const { data: allPulls } = await octokit.pulls.list({

@@ -27,6 +27,7 @@ jobs:
       - name: Commit the changes
         run: |
           cd gh-pages
+          git symbolic-ref HEAD refs/heads/gh-pages
           git add .
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
