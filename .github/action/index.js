@@ -7,6 +7,7 @@ const fs = require('mz/fs');
 const fetch = require('node-fetch');
 
 /** @typedef {import('@octokit/rest').Octokit.PullsListResponseItem } PullsListResponseItem */
+/** @typedef {import('@actions/exec/lib/interfaces').ExecOptions } ExecOptions */
 
 (async () => {
   try {
@@ -59,6 +60,29 @@ async function main() {
     // });
     // console.log('listfiles', filesChanged);
   }
+}
+
+async function commit() {
+  /** @type {(string: String, args?: string[], opts?: ExecOptions) => Promise<number>} */
+
+  const cmd = async (string, args = [], opts = {}) => {
+    const code = await exec.exec(string, args, { cwd: 'gh-pages', ...opts });
+  };
+  await cmd('cd', ['gh-pages']);
+  await cmd('git', ['checkout', '-b', 'gh-pages']);
+  await cmd('git', [
+    'config',
+    '--local',
+    'user.email',
+    'charlie_harding@icloud.com'
+  ]);
+  await cmd('git', ['config', '--local', 'user.name', 'Charlie Harding']);
+  await cmd('git', ['fetch']);
+  await cmd('git', ['merge', '-s', 'ours', 'origin/gh-pages', '--no-commit'], {
+    ignoreReturnCode: true
+  });
+  await cmd('git', ['add', '.']);
+  await cmd('git', ['commit', '-m', 'Update pull requests on gh-pages']);
 }
 
 function filterPRs(

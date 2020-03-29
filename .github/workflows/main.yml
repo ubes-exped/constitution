@@ -24,17 +24,6 @@ jobs:
         uses: ./.github/action
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit the changes
-        run: |
-          cd gh-pages
-          git checkout -b gh-pages
-          git config --local user.email "charlie_harding@icloud.com"
-          git config --local user.name "Charlie Harding"
-          git fetch
-          git merge -s ours origin/gh-pages --no-commit 2>/dev/null || true
-          git add .
-          message="Update pull requests on gh-pages"
-          git commit -m "$message"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
