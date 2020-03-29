@@ -51,15 +51,19 @@ async function main() {
   for (const [baseRef, pull] of pulls) {
     console.log(JSON.stringify(pull, undefined, 2));
     const sourceRef = pull.base.label;
+
+    const merge_commit = pull.merge_commit_sha;
+    console.log(merge_commit);
     console.log(
-      'listfiles',
-      await octokit.pulls.listFiles({
-        owner: github.context.repo.owner,
-        repo: github.context.repo.repo,
-        pull_number: pull.number
-      })
+      `${pull.base.repo.html_url}/raw/${merge_commit}/Constitution.md`
     );
-    const commit = pull.merge_commit_sha;
+
+    // const { data: filesChanged } = await octokit.pulls.listFiles({
+    //   owner: github.context.repo.owner,
+    //   repo: github.context.repo.repo,
+    //   pull_number: pull.number
+    // });
+    // console.log('listfiles', filesChanged);
   }
 
   // Get the JSON webhook payload for the event that triggered the workflow
