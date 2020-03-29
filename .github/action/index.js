@@ -57,7 +57,6 @@ async function commit() {
 
   const cmd = async (string, args = [], opts = {}) =>
     await exec.exec(string, args, { cwd: 'gh-pages', ...opts });
-  await cmd('cd', ['gh-pages']);
   await cmd('git', ['checkout', '-b', 'gh-pages']);
   await cmd('git', [
     'config',
