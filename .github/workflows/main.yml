@@ -27,14 +27,13 @@ jobs:
       - name: Commit the changes
         run: |
           cd gh-pages
-          git symbolic-ref HEAD refs/heads/gh-pages
           git add .
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
           message="Update pull requests on gh-pages"
           git commit -m "$message"
-          echo git commit-tree -m "$message" -p master -p ${{ github.sha }} -p gh-pages gh-pages
-          hash=$(git commit-tree -m "$message" -p master -p ${{ github.sha }} -p gh-pages gh-pages)
+          echo git commit-tree -m "$message" -p master -p gh-pages gh-pages
+          hash=$(git commit-tree -m "$message" -p master -p gh-pages gh-pages)
           echo git checkout $hash
           git checkout $hash
       - name: Push changes
