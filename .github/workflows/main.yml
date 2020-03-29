@@ -9,8 +9,7 @@ jobs:
         uses: actions/checkout@v1
       - name: Install dependencies
         run: |
-          pwd
-          ls -la
+          cd ./.github/action
           yarn
       - name: Hello world action step
         id: hello
