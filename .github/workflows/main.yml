@@ -31,7 +31,9 @@ jobs:
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
           message="Update pull requests on gh-pages from ${{ github.ref }}"
+          echo git commit-tree -m "$message" -p master -p origin/gh-pages master
           git commit -m "$message"
+          git commit-tree -m "$message" -p master -p origin/gh-pages master
           hash=$(git commit-tree -m "$message" -p master -p origin/gh-pages master)
           echo git checkout $hash
           git checkout $hash
