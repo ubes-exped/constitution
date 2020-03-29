@@ -53,10 +53,16 @@ async function main() {
     const sourceRef = pull.base.label;
 
     const merge_commit = pull.merge_commit_sha;
-    console.log(merge_commit);
-    console.log(
-      `${pull.base.repo.html_url}/raw/${merge_commit}/Constitution.md`
-    );
+    const newConstitutionURL = `${pull.base.repo.html_url}/raw/${merge_commit}/Constitution.md`;
+    console.log(newConstitutionURL);
+    const newConstitution = await (await fetch(newConstitutionURL)).text();
+    const oldConstitution = await fs.readFile('./gh-pages/Constitution.md', {
+      encoding: 'utf8'
+    });
+    if (newConstitution == oldConstitution) {
+      core.warning(`No change to constitution in ${pull.number}`);
+    }
+    fs.writeFile(`./gh-pages/_amendments/${pull.number}.md`, newConstitution);
 
     // const { data: filesChanged } = await octokit.pulls.listFiles({
     //   owner: github.context.repo.owner,
@@ -66,9 +72,14 @@ async function main() {
     // console.log('listfiles', filesChanged);
   }
 
-  // Get the JSON webhook payload for the event that triggered the workflow
-  const payload = JSON.stringify(github.context.payload, undefined, 2);
-  console.log(`The event payload: ${payload}`);
+  await exec.exec('git', ['add', '.']);
+  await exec.exec('git', ['commit', '-m', 'Update pull requests on gh-pages'], {
+    env: {
+      GIT_COMMITTER_NAME: 'Charlie Harding',
+      GIT_COMMITTER_EMAIL: 'charlie_harding@icloud.com',
+      GIT_COMMITTER_DATE: new Date().toISOString()
+    }
+  });
 }
 
 function filterPRs(
