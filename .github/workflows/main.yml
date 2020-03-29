@@ -5,11 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     name: Prepare web view
     steps:
-      - name: Checkout the repository
+      - name: Checkout the action
         uses: actions/checkout@v1
         with:
           fetch-depth: 0
           ref: master
+      - name: Checkout the full repository
+        uses: actions/checkout@v2
+        with:
+          path: gh-pages
+          ref: master
+          fetch-depth: 0
       - name: Install dependencies
         run: |
           cd ./.github/action
