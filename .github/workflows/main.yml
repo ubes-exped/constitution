@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: Prepare web view
+    name: Add PRs and their diffs to the gh-pages version
     steps:
       - name: Checkout the action
         uses: actions/checkout@v1
@@ -24,3 +24,16 @@ jobs:
         uses: ./.github/action
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit the changes
+        run: |
+          cd gh-pages
+          git add .
+          git config --local user.email "charlie_harding@icloud.com"
+          git config --local user.name "Charlie Harding"
+          git commit -m "Update pull requests on gh-pages"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: gh-pages
+          branch: gh-pages
