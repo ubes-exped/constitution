@@ -31,7 +31,7 @@ jobs:
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
           git fetch
-          git merge -s ours origin/gh-pages --no-commit 2&>1 >/dev/null || true
+          git merge -s ours origin/gh-pages --no-commit 2>/dev/null || true
           git add .
           message="Update pull requests on gh-pages"
           git commit -m "$message"
