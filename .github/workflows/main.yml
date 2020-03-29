@@ -31,7 +31,10 @@ jobs:
           git add .
           git config --local user.email "charlie_harding@icloud.com"
           git config --local user.name "Charlie Harding"
-          git commit -m "Update pull requests on gh-pages"
+          message="Update pull requests on gh-pages"
+          git commit -m "$message"
+          hash=$(git commit-tree -m "$message" -p master -p ${{ github.sha }} -p gh-pages gh-pages)
+          git checkout $hash
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
