@@ -74,12 +74,13 @@ async function main() {
   }
 
   await exec.exec('git', ['add', '.']);
-  await exec.exec('git', ['commit', '-m', 'Update pull requests on gh-pages'], {
-    env: {
-      GIT_AUTHOR_NAME: 'Charlie Harding',
-      GIT_AUTHOR_EMAIL: 'charlie_harding@icloud.com'
-    }
-  });
+  await exec.exec('git', [
+    'commit',
+    '--author',
+    'Charlie Harding <charlie_harding@icloud.com>',
+    '-m',
+    'Update pull requests on gh-pages'
+  ]);
   await exec.exec('git', ['push']);
 }
 
