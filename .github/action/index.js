@@ -33,17 +33,12 @@ async function main() {
   const pulls = filterPRs(allPulls, rootBranch);
 
   await fs.mkdir('./gh-pages/_amendments', { recursive: true });
-  const files = await fs.readdir('./gh-pages/_amendments');
-
-  console.log(files);
 
   for (const [baseRef, pull] of pulls) {
-    console.log(JSON.stringify(pull, undefined, 2));
     const sourceRef = pull.base.label;
 
     const merge_commit = pull.merge_commit_sha;
     const newConstitutionURL = `${pull.base.repo.html_url}/raw/${merge_commit}/Constitution.md`;
-    console.log(newConstitutionURL);
     const newConstitution = await (await fetch(newConstitutionURL)).text();
     const oldConstitution = await fs.readFile('./gh-pages/Constitution.md', {
       encoding: 'utf8'
@@ -52,22 +47,14 @@ async function main() {
       core.warning(`No change to constitution in ${pull.number}`);
     }
     fs.writeFile(`./gh-pages/_amendments/${pull.number}.md`, newConstitution);
-
-    // const { data: filesChanged } = await octokit.pulls.listFiles({
-    //   owner: github.context.repo.owner,
-    //   repo: github.context.repo.repo,
-    //   pull_number: pull.number
-    // });
-    // console.log('listfiles', filesChanged);
   }
 }
 
 async function commit() {
   /** @type {(string: String, args?: string[], opts?: ExecOptions) => Promise<number>} */
 
-  const cmd = async (string, args = [], opts = {}) => {
-    const code = await exec.exec(string, args, { cwd: 'gh-pages', ...opts });
-  };
+  const cmd = async (string, args = [], opts = {}) =>
+    await exec.exec(string, args, { cwd: 'gh-pages', ...opts });
   await cmd('cd', ['gh-pages']);
   await cmd('git', ['checkout', '-b', 'gh-pages']);
   await cmd('git', [
