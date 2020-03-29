@@ -6,6 +6,9 @@ collections:
   policies:
     output: true
     permalink: /policies/:path/
+  policies:
+    output: true
+    permalink: /amendments/:path/
 defaults:
   - scope:
       path: ''
