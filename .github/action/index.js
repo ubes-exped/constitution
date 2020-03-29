@@ -27,17 +27,24 @@ const fs = require('mz/fs');
       repo: github.context.repo.repo
     });
 
+    const root = github.context.repo.repo;
+    console.log('root', root);
+
     await fs.mkdir('./gh-pages/_amendments', { recursive: true });
     await fs.readdir('./gh-pages/_amendments');
 
     for (const pull of pulls) {
       console.log(JSON.stringify(pull, undefined, 2));
-      const target = pull.base;
-      // await octokit.pulls.listFiles({
-      //   owner: github.context.repo.owner,
-      //   repo: github.context.repo.repo,
-      //   pull_number: pull.number
-      // });
+      const base = pull.base.label;
+      const source = pull.base.label;
+      console.log(
+        'listfiles',
+        await octokit.pulls.listFiles({
+          owner: github.context.repo.owner,
+          repo: github.context.repo.repo,
+          pull_number: pull.number
+        })
+      );
       const commit = pull.merge_commit_sha;
     }
 
