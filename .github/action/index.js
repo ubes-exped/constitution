@@ -74,6 +74,7 @@ async function main() {
   }
 
   await exec.exec('git', ['add', '.']);
+  await exec.exec('git', ['status']);
   await exec.exec('git', [
     'commit',
     '--author',
