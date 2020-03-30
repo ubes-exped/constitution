@@ -180,8 +180,14 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 3. An EGM must be called if the held Committee positions are not in line with Bristol SU regulations.
 4. Any restrictions on who can stand must be stated –note that such restrictions must not contravene the Code of Conduct.
 5. Nominations must be made in accordance with instruction officially communicated by the Committee.
-6. The voting system shall be a single vote for each position, with a simple majority.
-7. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously.
+6. Voting must be by secret, secure ballot either through paper or electronic means.
+7. Either Single Transferable Vote ("STV") or Alternative Transferable Vote ("AV") must be used, as defined by the Electoral Reform Society of Great Britain and Northern Ireland ('How to conduct an election by the Single Transferable Vote', 3rd Edition, June 1997). AV is the single-position variant of STV.
+8. All ballots must include the option to re-open nominations. Should re-open nominations be elected, the post will remain vacant until a by-election is held.
+9. If re-open nominations is elected in a multi-seat election, its surplus of votes and any other votes for re-open nominations will be transferred to a new re-open nominations option.
+10. The STV/AV method as defined here is to be used as the default for the election of all committee positions. However, the Chairperson may decide to use a First Past The Post ("FPTP") system to determine very simple votes (e.g. if there is a single candidate (plus an option to re-open nominations) for a single position, or there are two candidates (plus an option to re-open nominations) for a single position). If the Chair decides to use FPTP, any voter may interrupt proceedings to object and request a standard STV/AV election. In the event of such an objection, the voter requires support of no less than 10% of the quorum threshold (as defined by 8(d)). If such support exists, the Chair and General Meeting must proceed with the election according to the standard method.
+11. If FPTP is duly used for an election, voters shall cast (up to) the same number of votes as there are positions to be filled. Each vote shall be a mark next the selected candidates. The number of received for each candidate is counted, and the highest-polling candidate(s) corresponding to the number of positions to be filled are elected.
+12. For the avoidance of doubt, the only positions which are to be elected as a multi-position election are those defined in Section 5 (Committee) which include "(_n_ positions)" in their definition, where _n_ is the number of positions to be elected. All other roles (including but not limited to President and Vice-President) are to be elected as a series of single-position elections.
+13. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously.
 
 ## Affiliations
 
