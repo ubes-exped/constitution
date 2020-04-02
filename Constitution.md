@@ -27,6 +27,7 @@ For the purpose of this document, expeditions are defined as adventurous outdoor
 4. Not less than two-thirds of the Society members shall be full members of the University of Bristol Students’ Union.
 5. The secretary shall keep a list of all members.
 6. There shall be a subscription fee levied for membership, which shall be fixed at the discretion of the Expeditions Society Committee being no less than the minimum rate demanded by the Societies Network.
+7. Full membership shall be granted indefinitely to everyone who has paid any membership fees prior to March 2020, to compensate for lost society events during the lockdown.
 
 ## Privileges of Membership
 
@@ -38,11 +39,12 @@ For the purpose of this document, expeditions are defined as adventurous outdoor
 There shall be a Committee of the Expeditions Society which shall be the executive decision making body of the society.
 
 1. The Committee size is to be defined as inclusive of all official roles, as stated below.
-2. The President, the Vice President, the Treasurer and the Secretary must be current students of the University of Bristol during their term of office.
-3. The Committee shall be jointly and severally responsible for the general and financial policy of the society, subject to such rules as laid out in the Union’s Constitution and Byelaws.
-4. Quoracy for Committee meetings shall be set at 50% of the post filled positions plus one.
-5. In the case of an official vote which is tied, the President shall carry the casting vote, provided the meeting is quorate.
-6. It is requirement that at least one of the Climbing Officers has completed, or intends to complete before the end of TB1 of their term of office, the Rock Climber Instructor (RCI) Training (formerly SPA). The Committee is to fund the training of at least one Climbing Officer, at their discretion.
+2. The President, the Vice President, the Treasurer and the Secretary must have graduated as students of the University of Bristol before their term of office.
+3. No committee member shall have their primary residence within the unitary authorities of Bristol, Bath and North East Somerset, North Somerset or South Gloucestershire, or spend the majority of their time living in this area.
+4. The Committee shall be jointly and severally responsible for the general and financial policy of the society, subject to such rules as laid out in the Union’s Constitution and Byelaws.
+5. Quoracy for Committee meetings shall be set at 50% of the post filled positions plus one.
+6. In the case of an official vote which is tied, the President shall carry the casting vote, provided the meeting is quorate.
+7. It is requirement that at least one of the Climbing Officers has completed, or intends to complete before the end of TB1 of their term of office, the Rock Climber Instructor (RCI) Training (formerly SPA). The Committee is to fund the training of at least one Climbing Officer, at their discretion.
 
 Positions held on the Committee and their main roles are as follows:
 
