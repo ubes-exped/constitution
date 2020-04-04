@@ -46,7 +46,8 @@ async function main() {
     if (newConstitution == oldConstitution) {
       core.warning(`No change to constitution in ${pull.number}`);
     }
-    fs.writeFile(`./gh-pages/_amendments/${pull.number}.md`, newConstitution);
+    const prefix = ["---", "---", ""].join("\n");
+    fs.writeFile(`./gh-pages/_amendments/${pull.number}.md`, prefix + newConstitution);
   }
 
   await commit();
