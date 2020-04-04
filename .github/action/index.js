@@ -21,7 +21,6 @@ const git = {
   },
 
   async commit() {
-    await this.cmd('git', ['checkout', '-b', 'gh-pages']);
     await this.cmd('git', [
       'config',
       '--local',
