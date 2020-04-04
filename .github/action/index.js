@@ -9,14 +9,6 @@ const fetch = require('node-fetch');
 /** @typedef {import('@octokit/rest').Octokit.PullsListResponseItem } PullsListResponseItem */
 /** @typedef {import('@actions/exec/lib/interfaces').ExecOptions } ExecOptions */
 
-(async () => {
-  try {
-    await main();
-  } catch (error) {
-    core.setFailed(error.message);
-  }
-})();
-
 const git = {
   /** @type {(string: String, args?: string[], opts?: ExecOptions) => Promise<number>} */
   cmd(string, args = [], opts = {}) {
@@ -150,3 +142,11 @@ function filterPRs(
   }
   return pullsByRef;
 }
+
+(async () => {
+  try {
+    await main();
+  } catch (error) {
+    core.setFailed(error.message);
+  }
+})();
