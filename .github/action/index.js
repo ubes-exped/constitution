@@ -18,6 +18,8 @@ const fetch = require('node-fetch');
 })();
 
 async function main() {
+  await git.setup();
+
   const token = core.getInput('repo-token');
 
   const octokit = new github.GitHub(token);
@@ -55,7 +57,7 @@ async function main() {
     );
   }
 
-  await commit();
+  await git.commit();
 }
 
 function frontMatter(/** @type {Object<string, any>} */ fields) {
@@ -68,25 +70,40 @@ function frontMatter(/** @type {Object<string, any>} */ fields) {
   ].join('\n');
 }
 
-async function commit() {
+const git = {
   /** @type {(string: String, args?: string[], opts?: ExecOptions) => Promise<number>} */
-  const cmd = async (string, args = [], opts = {}) =>
-    await exec.exec(string, args, { cwd: 'gh-pages', ...opts });
-  await cmd('git', ['checkout', '-b', 'gh-pages']);
-  await cmd('git', [
-    'config',
-    '--local',
-    'user.email',
-    'charlie_harding@icloud.com',
-  ]);
-  await cmd('git', ['config', '--local', 'user.name', 'Charlie Harding']);
-  await cmd('git', ['fetch']);
-  await cmd('git', ['merge', '-s', 'ours', 'origin/gh-pages', '--no-commit'], {
-    ignoreReturnCode: true,
-  });
-  await cmd('git', ['add', '.']);
-  await cmd('git', ['commit', '-m', 'Update pull requests on gh-pages']);
-}
+  cmd(string, args = [], opts = {}) {
+    return exec.exec(string, args, { cwd: 'gh-pages', ...opts });
+  },
+
+  async setup() {
+    await this.cmd('git', ['checkout', 'master', '--', '.']);
+  },
+
+  async commit() {
+    await this.cmd('git', ['checkout', '-b', 'gh-pages']);
+    await this.cmd('git', [
+      'config',
+      '--local',
+      'user.email',
+      'charlie_harding@icloud.com',
+    ]);
+    await this.cmd('git', [
+      'config',
+      '--local',
+      'user.name',
+      'Charlie Harding',
+    ]);
+    await this.cmd('git', ['add', '.']);
+    await this.cmd(
+      'git',
+      ['commit', '-m', 'Update pull requests on gh-pages'],
+      {
+        ignoreReturnCode: true,
+      }
+    );
+  },
+};
 
 function filterPRs(
   /** @type {PullsListResponseItem[]} */ pulls,
