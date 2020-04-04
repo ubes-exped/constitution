@@ -16,6 +16,7 @@ const git = {
   },
 
   async setup() {
+    await this.cmd('git', ['fetch']);
     await this.cmd('git', ['checkout', 'master', '--', '.']);
   },
 
