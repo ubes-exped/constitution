@@ -1,0 +1,33 @@
+on: [push, pull_request]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Add PRs and their diffs to the gh-pages version
+    steps:
+      - name: Checkout the action
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 0
+      - name: Checkout the full repository
+        uses: actions/checkout@v2
+        with:
+          path: gh-pages
+          ref: master
+          fetch-depth: 0
+      - name: Install dependencies
+        run: |
+          cd ./.github/action
+          yarn
+      - name: Add PRs and their diffs to the gh-pages version
+        id: hello
+        uses: ./.github/action
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: gh-pages
+          branch: gh-pages
+          force: true
