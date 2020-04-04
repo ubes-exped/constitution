@@ -17,6 +17,41 @@ const fetch = require('node-fetch');
   }
 })();
 
+const git = {
+  /** @type {(string: String, args?: string[], opts?: ExecOptions) => Promise<number>} */
+  cmd(string, args = [], opts = {}) {
+    return exec.exec(string, args, { cwd: 'gh-pages', ...opts });
+  },
+
+  async setup() {
+    await this.cmd('git', ['checkout', 'master', '--', '.']);
+  },
+
+  async commit() {
+    await this.cmd('git', ['checkout', '-b', 'gh-pages']);
+    await this.cmd('git', [
+      'config',
+      '--local',
+      'user.email',
+      'charlie_harding@icloud.com',
+    ]);
+    await this.cmd('git', [
+      'config',
+      '--local',
+      'user.name',
+      'Charlie Harding',
+    ]);
+    await this.cmd('git', ['add', '.']);
+    await this.cmd(
+      'git',
+      ['commit', '-m', 'Update pull requests on gh-pages'],
+      {
+        ignoreReturnCode: true,
+      }
+    );
+  },
+};
+
 async function main() {
   await git.setup();
 
@@ -69,41 +104,6 @@ function frontMatter(/** @type {Object<string, any>} */ fields) {
     '',
   ].join('\n');
 }
-
-const git = {
-  /** @type {(string: String, args?: string[], opts?: ExecOptions) => Promise<number>} */
-  cmd(string, args = [], opts = {}) {
-    return exec.exec(string, args, { cwd: 'gh-pages', ...opts });
-  },
-
-  async setup() {
-    await this.cmd('git', ['checkout', 'master', '--', '.']);
-  },
-
-  async commit() {
-    await this.cmd('git', ['checkout', '-b', 'gh-pages']);
-    await this.cmd('git', [
-      'config',
-      '--local',
-      'user.email',
-      'charlie_harding@icloud.com',
-    ]);
-    await this.cmd('git', [
-      'config',
-      '--local',
-      'user.name',
-      'Charlie Harding',
-    ]);
-    await this.cmd('git', ['add', '.']);
-    await this.cmd(
-      'git',
-      ['commit', '-m', 'Update pull requests on gh-pages'],
-      {
-        ignoreReturnCode: true,
-      }
-    );
-  },
-};
 
 function filterPRs(
   /** @type {PullsListResponseItem[]} */ pulls,
