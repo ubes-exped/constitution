@@ -6,14 +6,24 @@ collections:
   policies:
     output: true
     permalink: /policies/:path/
+  amendments:
+    output: true
+    permalink: /amendments/:path/
 defaults:
   - scope:
       path: ''
+      type: policies
     values:
-      layout: 'default'
+      layout: policy
   - scope:
       path: ''
-      type: 'policies'
+      type: amendments
     values:
-      layout: 'policy'
+      layout: amendment
+  - scope:
+      path: ''
+    values:
+      layout: default
 title: ''
+exclude:
+  - .github

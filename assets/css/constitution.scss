@@ -3,7 +3,7 @@
   break-inside: avoid;
 
   &::after {
-    content: "";
+    content: '';
     display: block;
 
     $height: 50px;
@@ -28,24 +28,24 @@ h3 {
   @include no-break-after;
 }
 
-body.layout-constitution {
-
+body.layout-constitution,
+body.layout-amendment {
   h2:before {
     counter-increment: h2;
-    content: counter(h2) ". ";
+    content: counter(h2) '. ';
   }
 
   h3:before {
     counter-increment: h3;
-    content: counter(h2) "."counter(h3) ". ";
+    content: counter(h2) '.' counter(h3) '. ';
   }
 
   h4:before {
     counter-increment: h4;
-    content: counter(h2) "."counter(h3) "."counter(h4) ". ";
+    content: counter(h2) '.' counter(h3) '.' counter(h4) '. ';
   }
 
-  ol>li {
+  ol > li {
     list-style-type: lower-alpha;
   }
 }
@@ -54,21 +54,22 @@ li {
   break-inside: avoid;
 }
 
-ol ol>li {
+ol ol > li {
   list-style-type: lower-alpha;
 }
 
-ol ol ol>li {
+ol ol ol > li {
   list-style-type: lower-roman;
 }
 
 .github-banner {
   display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   a:first-child:hover {
     text-decoration: none;
 
-    >span {
+    > span {
       text-decoration: underline;
     }
   }
@@ -85,4 +86,8 @@ ol ol ol>li {
 
 .subtitle {
   font-style: italic;
+}
+
+.markdown-body {
+    font-family: 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif;
 }

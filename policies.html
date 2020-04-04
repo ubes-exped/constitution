@@ -1,6 +1,7 @@
 ---
 layout: default
 title: UBES Policies
+permalink: /policies/
 ---
 
 <div class="github-banner">
@@ -20,7 +21,7 @@ title: UBES Policies
 {% for policy in site.policies %}
   <h2 data-anchor-id="{{ policy.title | slugify }}"><a href="{{ policy.url }}">{{ policy.title }}</a></h2>
   <p class="subtitle">Valid until {{ policy.expiry | date_to_long_string: "ordinal" }}</p>
-  {{ policy | newline_to_br | split: '<br />' | first | markdownify }}
+  <p>{{ policy.content | strip_html | newline_to_br | split: "<br />" | first }}</p>
   <p class="continued"><a href="{{ policy.url }}">Read more&hellip;</a></p>
 {% endfor %}
 
