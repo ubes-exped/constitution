@@ -7,15 +7,30 @@ layout: default
     <img
       src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
     />
-    <span>GitHub</span></a>
+    <span>GitHub</span></a
+  >
   &CenterDot;
-  <a href="https://github.com/ubes-exped/constitution/edit/master/Constitution.md">Prepare an amendment</a>
-  &CenterDot;
-  {% if site.policies.size > 0 %}
+  <a
+    href="https://github.com/ubes-exped/constitution/edit/master/Constitution.md"
+    >Prepare an amendment</a
+  >
+  &CenterDot; {% if site.policies.size > 0 %}
   <a href="policies/">General Policies</a>
+  &CenterDot; {% endif %}
+  <a href="{{ page.github_link }}">View motion on GitHub</a>
   &CenterDot;
-  {% endif %}
   <a href="#" onclick="window.print();return false">Print</a>
 </div>
 
+<p>
+  <em
+    >Proposed amendment
+    <a href="{{ page.github_link }}">(view on GitHub)</a></em
+  >
+</p>
+
 {{ content }}
+
+<p>Signed,</p>
+
+<p><em>This amendment has not been signed</em></p>
