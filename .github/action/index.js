@@ -46,20 +46,26 @@ async function main() {
     if (newConstitution == oldConstitution) {
       core.warning(`No change to constitution in ${pull.number}`);
     }
-    const prefix = [
-      '---',
-      `title: ${JSON.stringify(pull.title)}`,
-      '---',
-      '',
-      '',
-    ].join('\n');
     fs.writeFile(
       `./gh-pages/_amendments/${pull.number}.md`,
-      prefix + newConstitution
+      frontMatter({
+        title: pull.title + ' - UBES Constitution',
+        github_link: pull.html_url,
+      }) + newConstitution
     );
   }
 
   await commit();
+}
+
+function frontMatter(/** @type {Object<string, any>} */ fields) {
+  return [
+    '---',
+    ...Object.entries(fields).map(([x, y]) => x + ': ' + JSON.stringify(y)),
+    '---',
+    '',
+    '',
+  ].join('\n');
 }
 
 async function commit() {
