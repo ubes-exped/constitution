@@ -199,11 +199,11 @@ The Constitution defines the aims and operation of the society for the foreseeab
 3. Any changes to General Policies can only be enacted by a quorate General Meeting, not solely by the Committee.
 4. The Committee retains the right to create, amend, and revoke Committee Policies for itself. Committee Policies may not contradict General Policies, the Constitution, Union Byelaws, or any applicable legislation.
 5. Any amendment to General Policies shall require support from a simple majority at a quorate General Meeting. A simple majority means that no less than one half of non-abstaining votes received at a quorate General Meeting must be affirmative.
-6. General Policies shall expire three years after enactment or subsequent renewal (‘standard maximum expiry’), unless the enacting or renewing motion specifies an earlier expiry date.
-7. A General Meeting may exceptionally set the expiry date of a General Policy to exceed the three-year maximum.
+6. General Policies shall expire three years and one month after enactment or subsequent renewal (‘standard maximum expiry’), unless the enacting or renewing motion specifies an earlier expiry date.
+7. A General Meeting may exceptionally set the expiry date of a General Policy to exceed the standard maximum expiry.
    1. In such cases the support of two-thirds of non-abstaining votes are required at a quorate General Meeting (a ‘super majority’).
    2. If such a motion receives the support of a simple majority but not a super majority, the standard maximum expiry shall apply. In their motion, the proposer may waive this clause, such that anything short of a super majority is considered defeated.
-8. In the AGM preceding expiry, it shall be a standing motion to renew expiring policy. Expiring policy which is not renewed shall cease to have effect after its expiry. Policy may be renewed an unlimited number of times.
+8. In the AGM preceding expiry, there shall be standing motions to renew each expiring policy. Expiring policy which is not renewed shall cease to have effect after its expiry. Policy may be renewed an unlimited number of times.
 9. In any General Meeting, a motion may be proposed to revoke any policy, or to amend and/or extend it subject to sections (f) and (g) above.
 10. The Committee and members shall be required to observe these General Policies. General Policy shall not intentionally contradict the Constitution. Where General Policy pre-dates a conflicting Constitutional amendment, or a conflict arises unintentionally, the Constitution shall take precedence. Where such a conflict is observed, it must be raised at the next General Meeting.
 
