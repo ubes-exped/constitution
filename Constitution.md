@@ -182,6 +182,12 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 5. Nominations must be made in accordance with instruction officially communicated by the Committee.
 6. The voting system shall be a single vote for each position, with a simple majority.
 7. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously.
+8. It shall be permitted for any eligible voter who is unable to vote synchronously in an election ("the absent voter") to nominate another eligible voter whom they trust to act as their proxy ("the proxy voter"), according to the following regulations.
+   1. The proxy voter is permitted to cast an additional vote in accordance with the intention of the absent voter, although it is a matter for the absent voter to determine how to communicate their intention, which may be privately.
+   2. In order for a proxy vote to be permitted, it must be registered with the Chairperson by the absent voter prior to that election, and the proxy voter must also give their consent. The Chairperson may set a deadline of no more than 7 days prior to the election for these registrations.
+   3. The absent voter may cancel this proxy registration at any time up to the commencement of that election, provided it is properly communicated to the Chairperson. If an absent voter is subsequently able to vote synchronously in that election, their proxy registration (if any) shall be cancelled.
+   4. It shall be prohibited for any person to act as a proxy for more than one other person.
+   5. It shall be prohibited for any person who is not an eligible voter to act as a proxy for an eligible voter.
 
 ## Affiliations
 
