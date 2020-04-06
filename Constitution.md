@@ -42,7 +42,8 @@ There shall be a Committee of the Expeditions Society which shall be the executi
 3. The Committee shall be jointly and severally responsible for the general and financial policy of the society, subject to such rules as laid out in the Union’s Constitution and Byelaws.
 4. Quoracy for Committee meetings shall be set at 50% of the post filled positions plus one.
 5. In the case of an official vote which is tied, the President shall carry the casting vote, provided the meeting is quorate.
-6. It is requirement that at least one of the Climbing Officers has completed, or intends to complete before the end of TB1 of their term of office, the Rock Climber Instructor (RCI) Training (formerly SPA). The Committee is to fund the training of at least one Climbing Officer, at their discretion.
+6. Only persons duly elected to roles defined in this Constitution shall be permitted to vote on matters in meetings of the Committee. 
+7. It is requirement that at least one of the Climbing Officers has completed, or intends to complete before the end of TB1 of their term of office, the Rock Climber Instructor (RCI) Training (formerly SPA). The Committee is to fund the training of at least one Climbing Officer, at their discretion.
 
 Positions held on the Committee and their main roles are as follows:
 
@@ -187,7 +188,35 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 
 1. The Society shall affiliate to external bodies only where membership of those bodies is essential to the fulfilment of the core aims, and only with the prior agreement of the Union’s Societies Network.
 
-## Constitutional Amendments
+## Constitution and General Policies
 
-1. Any amendment to this constitution shall require a two-thirds majority of the members present at a properly constituted General Meeting.
+The Constitution defines the aims and operation of the society for the foreseeable future, subject to modifications as outlined in section 11.2. For more short-term effect, General Policies may enacted by Members at a General Meeting, as outlined in section 11.1.
+
+### General Policies
+
+1. General Policies shall be defined as instructions to the Committee and/or members regarding the day-to-day running of the Society that need not require a change to the Constitution.
+2. There shall be an official Society register of General Policies and their expiry dates, available to all members.
+3. Any changes to General Policies can only be enacted by a quorate General Meeting, not solely by the Committee.
+4. The Committee retains the right to create, amend, and revoke Committee Policies for itself. Committee Policies may not contradict General Policies, the Constitution, Union Byelaws, or any applicable legislation.
+5. Any amendment to General Policies shall require support from a simple majority at a quorate General Meeting. A simple majority means that no less than one half of non-abstaining votes received at a quorate General Meeting must be affirmative.
+6. Each General Policy shall expire two years and one month its after enactment or subsequent renewal (‘standard maximum expiry’), unless the enacting or renewing motion specifies an earlier expiry date, or is duly extended in accordance with (g).
+7. A General Meeting may exceptionally amend the expiry date of an existing General Policy to exceed the standard maximum expiry.
+   1. Such amendments require the support of two-thirds of non-abstaining votes at a quorate General Meeting (a ‘super majority’) for the policy to be amended.
+   2. Such amendments may be passed during the same General Meeting in which the policy was initially created.
+   3. Subsequent revocation of such policies shall be permitted with the usual simple majority.
+   4. Subsequent amendments to the text of such policies will require a super majority, unless at the time of the proposed amendment the expiry date is no greater than the current standard maximum expiry, owing to the passage of time.
+   5. Subsequent re-extension of such policies will require a super majority, unless the proposed new expiry date is no greater than the current standard maximum expiry, owing to the passage of time.
+8. In the AGM preceding expiry, there shall be standing motions to renew each expiring policy. Expiring policy which is not renewed shall cease to have effect after its expiry. Policy may be renewed an unlimited number of times.
+9. In any General Meeting, a motion may be proposed to revoke any policy, or to amend and/or extend it subject to sections (f) and (g) above.
+10. The Committee and members shall be required to observe these General Policies. General Policy shall not intentionally contradict the Constitution. Where General Policy pre-dates a conflicting Constitutional amendment, or a conflict arises unintentionally, the Constitution shall take precedence. Where such a conflict is observed, it must be raised at the next General Meeting.
+
+### Constitutional Amendments
+
+1. Any amendment to this constitution shall require a two-thirds majority of the voting members (i.e. excluding abstentions) present at a properly constituted General Meeting.
 2. All such amendments shall become valid only after approval by Student Council, or the appropriate delegated authority as duly determined by the present democratic structures of the Union.
+
+## Annexes
+
+The following document shall be kept as Annexes to the Constitution.
+
+- Annex A. Schedule of decision-making hierarchy
