@@ -180,7 +180,6 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 2. There shall be provision for by-elections for positions unfilled at the AGM to be held at an EGM in October.
 3. An EGM must be called if the held Committee positions are not in line with Bristol SU regulations.
 4. Any restrictions on who can stand must be stated – note that such restrictions must not contravene the Code of Conduct.
-5. Nominations must be made in accordance with instruction officially communicated by the Committee.
 6. The default system of voting shall be First Past the Post ("FPTP"), for ease of counting only. Where FPTP is used as the system of voting, it shall be defined as follows.
    1. Eligible voters shall cast (up to) the same number of votes as there are positions to be filled.
    2. Each vote shall indicate the selected candidate(s).
@@ -200,7 +199,7 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 12. If RON is elected in a multi-seat election where STV is used as the system of voting, any surplus of votes for RON above the threshold to be elected will be allocated directly to an additional RON candidate (instead of being distributed to other candidates according to subsequent preferences). In this way, it shall be possible to elect multiple RON candidates for a multi-seat election where STV is used.
 13. For the avoidance of doubt, the only roles which are to be elected as a multi-position election are those defined in Section 5 (Committee) which include "(_n_ positions)" in their definition, where _n_ is the number of positions to be elected. All other roles (including but not limited to President and Vice-President) are to be elected as a series of single-position elections.
 14. The Chairperson of the General Meeting to have the casting vote in the event of a tie, having not voted previously.
-15. Eligible voters who are unable to vote synchronously at the election are entitled to submit their voting intention in advance to the Chairperson. The Chairperson shall then be required to ensure these votes are duly counted alongside synchronous votes. The Chairperson may set a deadline of no more than 7 days prior to the election for these submissions. In submitting their voting intention, voters shall be encouraged to submit an intention for both FPTP and STV systems of voting.
+16. Eligible voters who are unable to vote synchronously at the election are entitled to submit their voting intention in advance to the Chairperson. The Chairperson shall then be required to ensure these votes are duly counted alongside synchronous votes. The Chairperson may set a deadline of no more than 7 days prior to the election for these submissions. In submitting their voting intention, voters shall be encouraged to submit an intention for both FPTP and STV systems of voting.
     1. If the voter submits a voting intention for both FPTP and STV, then the appropriate voting intention shall be counted corresponding to the system used in that election.
     2. Regardless of the number of positions, if the voter submits only a voting intention for STV, and instead FPTP is used, the Chairperson shall assign votes to the most preferred candidates corresponding to the number of positions to be filled.
     3. In a single-position election, if the voter submits only a voting intention for FPTP and instead STV is used, then their voting intention shall be interpreted as a single first-preference choice with no subsequent preferences.
@@ -211,8 +210,13 @@ The Committee may appoint as Honorary President and Vice-President, any persons 
 
     1. One or more persons present (including eligible voters, candidates, and/or the Chairperson) indicate to the Chairperson at any time before the commencement of that election that they wish for the election to be by secret ballot, and/or
     2. The STV system of voting is duly being used for that election.
+17. It shall be permitted for any eligible voter who is unable to vote synchronously in an election ("the absent voter") to nominate another eligible voter whom they trust to act as their proxy ("the proxy voter"), according to the following regulations.
 
-17. It shall be prohibited for any person to vote on behalf of another person, except for the Chairperson acting in accordance with these regulations.
+    1. The proxy voter is permitted to cast an additional vote in accordance with the intention of the absent voter, although it is a matter for the absent voter to determine how to communicate their intention, which may be privately.
+    2. In order for a proxy vote to be permitted, it must be registered with the Chairperson by the absent voter prior to that election, and the proxy voter must also give their consent. The Chairperson may set a deadline of no more than 7 days prior to the election for these registrations.
+    3. The absent voter may cancel this proxy registration at any time up to the commencement of that election, provided it is properly communicated to the Chairperson. If an absent voter is subsequently able to vote synchronously in that election, their proxy registration (if any) shall be cancelled.
+    4. It shall be prohibited for any person to act as a proxy voter for more than one other person.
+    5. It shall be prohibited for any person who is not an eligible voter to act as a proxy voter for an eligible voter.
 
 ## Affiliations
 
