@@ -1,6 +1,15 @@
-This amendment adopted in July 2019. Amendment of the Expeditions Society Constitution Wednesday 4th December 1991, in accordance to guidelines of the Society Executive.
+This amendment adopted in May 2021. Amendment of the Expeditions Society Constitution Wednesday 4th December 1991, in accordance to guidelines of the Society Executive.
 
 Signed,
+- Jodie Hill (Secretary)
+- Ewan White (President)
+
+_Previous Revision April 2020:_
+
+- Aaron Larkworthy (Secretary)
+- Ellen Kinsman (President)
+
+_Previous Revision July 2019:_
 
 - Cassia Copeland (President)
 - James Wheeler (Vice President)
