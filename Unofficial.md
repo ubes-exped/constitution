@@ -30,7 +30,7 @@ Unofficial positions for life may be proposed and awarded to members, subject to
 
 ## Presidential Duties
 
-1. Once elected the new president must cut a small lock of hair from the outgoing president and then keep the lock of hair on their person for their entire term as president, preferably in the form of a locket. This will serve as a reminder of the great traditions and responsibilities they have sworn to uphold. At the end of the term, at the following AGM, the lock of hair should be ceremonially burnt. At any point during their term any UBES Member or UBES Alumni can challenge the president to see the hair and if the President is not able to present it immediately then a forfeit will be applicable.
+1. Once elected the new president must cut a small lock of hair from the outgoing president and then keep the lock of hair on their person for their entire term as president, inside a locket. This will serve as a reminder of the great traditions and responsibilities they have sworn to uphold. At the end of the term, at the following AGM, the lock of hair should be ceremonially burnt. At any point during their term any UBES Member or UBES Alumni can challenge the president to see the hair and if the President is not able to present it immediately then a forfeit will be applicable. The forfeit shall be that the president is required to buy the person that correctly challenged them a pint of beer, cider, or a soft drink of their choice. This forfeit will only be applicable a maximum of once a day, in order to avoid affecting the solvency of the society's administrative executive. This duty can be permanently lifted by the sitting president casting the locket into a lake of lava in an active volcano.
 
 ## Lake bagging
 
